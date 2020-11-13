@@ -1,27 +1,32 @@
-#my-map{
+   #my-map{
     height: 80vh;
     margin-top: -175px ;
     }
-    *{
+
+   *{
      font-family: 'Rubik', sans-serif;
     }
-    h1{
+
+   h1{
     color: #0ff;
     text-align: center;
     }
-    #upper-area{
-    background: url('/assets/pattern-bg.png') no-repeat 100% 100% / cover; /*check*/
+
+   #upper-area{
+    background: url('/assets/pattern-bg.png') no-repeat 100% 100% / cover;
     text-align: center;
-     padding-top: 5px;
+    padding-top: 5px;
     }
-    #input-ip{
+
+   #input-ip{
     display: inline-block;
     max-width: 80vw;
     position: relative;
     margin-left: auto;
     margin-right: auto;
     }
-    input{
+
+   input{
     border:none;
     border-radius: 10px;
     min-width: 70vw;
@@ -29,7 +34,8 @@
     padding: 15px;
     cursor: pointer;
     }
-    #search-ip{
+
+   #search-ip{
     background-color: #000;
     border: none;
     border-radius: 0 10px 10px 0;
@@ -38,108 +44,114 @@
     width: 50px;
     }
     
-      #form{
-        display: block;
-        text-align: center;
+   #form{
+    display: block;
+    text-align: center;
     }
-    input, button{
+   input, button{
     height: 50px;
-    border: 0}
+    border: 0
+   }
     
-    div form{
+   div form{
     margin-bottom: 20px;
     }
     
-    #display-result{
-     display: inline-block;
-     max-width: 80vw;
-     
-     background-color: #fff;
-     border-radius: 10px;
-     padding: 30px;
-      position: relative;
-     z-index: 500;
-     min-height: 250px;
+   #display-result{
+    display: inline-block;
+    max-width: 80vw;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+    z-index: 500;
+    min-height: 250px;
     }
-    h1{
+
+   h1{
     font-size: 24px;
     color: #fff;
     font-weight: 900;
     line-height: 1.5;
     letter-spacing: -1px;
-    margin: 20px;
-      
-    }
-    h5{
+    margin: 20px;     
+     }
+
+   h5{
     font-size: 8px;
     font-weight: 800;
     text-transform: uppercase;
     color: hsl(0, 0%, 59%);
-      line-height: 0.8;
-      letter-spacing: 1.5px;
+    line-height: 0.8;
+    letter-spacing: 1.5px;
     }
     
-    p{
+   p{
     font-size: 20px;
     font-weight: 900;
     letter-spacing: 1px;
     color: hsl(0, 0%, 17%);
     }
     
-    @media only screen and (min-width: 678px){
-      #my-map{
+ @media only screen and (min-width: 678px){
+   #my-map{
     margin-top: -93px;
-     height: 66vh;
-      }
-      
-      #display-result{
-        max-width:80%;
-        min-height: 150px;
-        padding: 30px;
-        padding-right: 70px;
-        display: flex;
-       justify-content: space-between;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: left;
+    height: 66vh;
     }
-      #display-result div{
-        padding: 0 20px;
-    border-left: 1px hsl(0, 0%, 59%) solid;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        height: 70px;;
-     }
       
-     
-      #display-result div:first-child{
+   #display-result{
+    max-width:80%;
+    min-height: 150px;
+    padding: 30px;
+    padding-right: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    }
+   #display-result div{
+    padding: 0 20px;
+    border-left: 1px hsl(0, 0%, 59%) solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 70px;;
+     }
+          
+   #display-result div:first-child{
     border: none;
-      padding: 0}
-      #input-ip{
+    padding: 0
+    }
+
+   #input-ip{
     max-width:65vw;
     margin: 10px auto 40px auto;
-      }
-      input{
+    }
+
+   input{
     min-width: 40vw
     }
-    input[type="text"]{
-        font-size: 20px;
-    }
-    h1{
-        margin: 0;
-    }
-    #upper-area{
-        padding-top: 30px;
-    }
-    input, button{
-        
-        height: 70px;
 
+   input[type="text"]{
+    font-size: 20px;
     }
-    #search-ip{
-        width: 70px;
+
+   h1{
+    margin: 0;
     }
-}
+
+   #upper-area{
+    padding-top: 30px;
+    }
+
+   input, button{   
+    height: 70px;
+    }
+
+   #search-ip{
+    width: 70px;
+    }
+ }
