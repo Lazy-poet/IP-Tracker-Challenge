@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0">
+    
+    
+<link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+</head>
+
+<body>
+
+    <div id="map-container" class="container-fluid">
+        <div id="upper-area">
+            <h1>IP Address Tracker</h1>
+            <div>
+                <form id="input-ip">
+                    <input type="text" placeholder="Type in IP address here"><button id="search-ip"
+                        class="btn btn-dark"><i class="fa fa-chevron-right"></i>
+                    </button>
+                </form>
+            </div>
+            <div id="display-result">
+                <div>
+                    <h5 id="address">IP ADDRESS</h5>
+                    <p id="display-ip">192.212.174.101</p>
+                </div>
+                <div>
+                    <h5 id="location">LOCATION</h5>
+                    <p id="display-location">LAGOS, NG 55435</p>
+                </div>
+                <div>
+                    <h5 id="timezone">TIMEZONE</h5>
+                    <p id="display-timezone">GMT +1</p>
+                </div>
+                <div>
+                    <h5>ISP</h5>
+                    <p id="display-isp">SpaceX Starlink</p>
+                </div>
+            </div>
+        </div>
+        <div id="my-map"></div>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+        <script src="myScript.js"></script>
+</body>
+</html>
