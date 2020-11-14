@@ -113,13 +113,13 @@
     text-align: left;
     }
    #display-result div{
-    padding: 0 20px;
+    padding: 0 30px;
     border-left: 1px hsl(0, 0%, 59%) solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    height: 70px;;
+    min-height: 70px;;
      }
           
    #display-result div:first-child{
