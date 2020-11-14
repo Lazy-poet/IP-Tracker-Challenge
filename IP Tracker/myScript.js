@@ -4,7 +4,7 @@ let locationDisplay = document.getElementById("display-location");
 let timezone = document.getElementById("display-timezone");
 let isp = document.getElementById("display-isp");
 
-//API prefix and key for easy modification
+//API prefix and key for easy modification and reuse
 let apiPrefix = "https://geo.ipify.org/api/v1?apiKey=";
 let apiKey = "at_YYIEVuzDAx6HMNFJ8oW2q5JOngmCu";
 
@@ -63,7 +63,8 @@ search_ip.addEventListener("click", (e) => {
  if (input_ip.value != "" && input_ip.value != null) {
   fetchDisplayInfo(input_ip.value);
  }
- alert("Please enter a valid IP address");
+else{
+ alert("Please enter a valid IP address");}
 });
 
     
