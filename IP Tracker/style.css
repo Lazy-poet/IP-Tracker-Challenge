@@ -7,11 +7,6 @@
      font-family: 'Rubik', sans-serif;
     }
 
-   h1{
-    color: #0ff;
-    text-align: center;
-    }
-
    #upper-area{
     background: url('/assets/pattern-bg.png') no-repeat 100% 100% / cover;
     text-align: center;
@@ -60,15 +55,17 @@
    #display-result{
     display: inline-block;
     max-width: 80vw;
+    min-width: 70vw;
     background-color: #fff;
     border-radius: 10px;
     padding: 30px;
+    padding-bottom: 0;
     position: relative;
     z-index: 500;
     min-height: 250px;
     }
 
-   h1{
+   .header{
     font-size: 24px;
     color: #fff;
     font-weight: 900;
@@ -77,8 +74,12 @@
     margin: 20px;     
      }
 
-   h5{
-    font-size: 8px;
+   div h5{
+    margin: 0;
+    }
+
+   #display-result div h5{
+    font-size: 10px;
     font-weight: 800;
     text-transform: uppercase;
     color: hsl(0, 0%, 59%);
@@ -87,10 +88,11 @@
     }
     
    p{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 900;
     letter-spacing: 1px;
     color: hsl(0, 0%, 17%);
+    transform: scale(0.9, 0.9);
     }
     
  @media only screen and (min-width: 678px){
