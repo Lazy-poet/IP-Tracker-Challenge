@@ -113,7 +113,7 @@
     text-align: left;
     }
    #display-result div{
-    padding: 0 30px;
+    padding-left: 10px;
     border-left: 1px hsl(0, 0%, 59%) solid;
     display: flex;
     flex-direction: column;
@@ -125,6 +125,10 @@
    #display-result div:first-child{
     border: none;
     padding: 0
+    }
+
+   #display-result div h5{
+    padding-left: 10px;
     }
 
    #input-ip{
