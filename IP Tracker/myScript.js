@@ -52,7 +52,9 @@ const fetchDisplayInfo = (address = "") => {
    lng = data.location.lng;
    displayInfo(data);
    mapDisplay();
-  });
+  }).catch(error=>{
+   alert("Invalid IP address. Unable to fetch details")
+  })
 };
 //call funtion
 fetchDisplayInfo();
@@ -64,7 +66,7 @@ search_ip.addEventListener("click", (e) => {
   fetchDisplayInfo(input_ip.value);
  }
 else{
- alert("Please enter a valid IP address");}
+ alert("Please enter an IP address");}
 });
 
     
