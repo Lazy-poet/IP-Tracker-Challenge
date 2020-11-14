@@ -97,7 +97,7 @@
     
  @media only screen and (min-width: 768px){
    #my-map{
-    margin-top: -93px;
+    margin-top: -75px;
     height: 66vh;
     }
       
@@ -129,6 +129,7 @@
 
    #display-result div h5{
     padding-left: 10px;
+    font-size: 14px;
     }
 
    #input-ip{
