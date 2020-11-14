@@ -22,7 +22,7 @@ const mapDisplay = () => {
  //create marker icon
  var myIcon = L.icon({
   iconUrl:
-   "item-location.svg",
+   "./assets/icon-location.svg",
   iconSize: [40, 50],
   iconAnchor: [20, 25]
  });  
