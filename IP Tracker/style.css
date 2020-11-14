@@ -104,8 +104,7 @@
    #display-result{
     max-width:80%;
     min-height: 150px;
-    padding: 30px;
-    padding-right: 70px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
