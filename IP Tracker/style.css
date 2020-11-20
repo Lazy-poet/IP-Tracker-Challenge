@@ -1,6 +1,6 @@
    #my-map{
     height: 80vh;
-    margin-top: -175px ;
+    margin-top: -160px ;
     }
 
    *{
@@ -8,7 +8,7 @@
     }
 
    #upper-area{
-    background: url('/assets/pattern-bg.png') no-repeat 100% 100% / cover;
+    background: url('assets/pattern-bg.png') no-repeat 100% 100% / cover;
     text-align: center;
     padding-top: 5px;
     }
@@ -95,7 +95,7 @@
     transform: scale(0.9, 0.9);
     }
     
- @media only screen and (min-width: 768px){
+ @media only screen and (min-width: 1024px){
    #my-map{
     margin-top: -75px;
     height: 66vh;
